@@ -1,4 +1,6 @@
-# NPM Skeleton [![Build Status](https://secure.travis-ci.org/leonardothibes/node-cnpj.png)](http://travis-ci.org/leonardothibes/node-cnpj) [![Package Quality](http://npm.packagequality.com/shield/node-cnpj.svg)](http://packagequality.com/#?package=node-cnpj)
+# CNPJ (em desenvolvimento) [![Build Status](https://secure.travis-ci.org/leonardothibes/node-cnpj.png)](http://travis-ci.org/leonardothibes/node-cnpj) [![Package Quality](http://npm.packagequality.com/shield/node-cnpj.svg)](http://packagequality.com/#?package=node-cnpj)
+
+AINDA EM DESENVOLVIMENTO. NO MOMENTO, NÃO HÁ NADA FUNCIONAL!
 
 Funções utilitárias para tratamento de CNPJ.
 
