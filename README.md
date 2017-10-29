@@ -1,24 +1,76 @@
-# NPM Skeleton [![Build Status](https://secure.travis-ci.org/leonardothibes/[nome-do-projeto].png)](http://travis-ci.org/leonardothibes/[nome-do-projeto]) [![Package Quality](http://npm.packagequality.com/shield/[nome-do-projeto].svg)](http://packagequality.com/#?package=[nome-do-projeto])
+# NPM Skeleton [![Build Status](https://secure.travis-ci.org/leonardothibes/node-cnpj.png)](http://travis-ci.org/leonardothibes/node-cnpj) [![Package Quality](http://npm.packagequality.com/shield/node-cnpj.svg)](http://packagequality.com/#?package=node-cnpj)
 
-Aqui vai uma pequena descrição do projeto, falando um pouco sobre seu propósito e os problemas que ele se propõe a resolver.
+Funções utilitárias para tratamento de CNPJ.
 
 Installation
 ------------
 
 ```bash
-npm install [nome-do-projeto] --save
+npm install node-cnpj --save
 ```
 
 Examples
 --------
 
-* [Some function](#some-function)
+* [Cnpj Validation](#cnpj-validation)
+* [Cnpj Mask](#cnpj-mask)
+* [Cnpj UnMask](#cnpj-unmask)
+* [Cnpj is Masked](#cnpj-is-masked)
+* [Random Cnpj Generation](#random-cnpj-generation)
 
-Some function
--------------
+Cnpj Validation
+--------------
 
 ```js
-// Aqui vão os exemplos de uso.
+const cnpj = require('node-cnpj');
+
+cnpj.validate('226.088.422-91'); // returns TRUE
+cnpj.validate('22608842291');    // returns TRUE
+
+cnpj.validate('11111111111'); // returns FALSE
+
+```
+
+Cnpj Mask
+--------
+
+```js
+const cnpj = require('node-cnpj');
+
+cnpj.mask('22608842291'); // returns '226.088.422-91'
+
+```
+
+Cnpj UnMask
+--------
+
+```js
+const cnpj = require('node-cnpj');
+
+cnpj.unMask('226.088.422-91'); // returns '22608842291'
+
+```
+
+Cnpj Is Masked
+------------
+
+```js
+const cnpj = require('node-cnpj');
+
+cnpj.isMasked('226.088.422-91'); // returns TRUE
+cnpj.isMasked('22608842291');    // returns FALSE
+
+```
+
+Random CNPJ Generation
+----------------------
+
+```js
+const cnpj = require('node-cnpj');
+
+cnpj.generate();     // returns a valid CNPJ without mask
+cnpj.generate(true); // returns a valid CNPJ with mask
+
 ```
 
 Test and development
