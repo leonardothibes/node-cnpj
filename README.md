@@ -28,8 +28,8 @@ Cnpj Validation
 ```js
 const cnpj = require('node-cnpj');
 
-cnpj.validate('226.088.422-91'); // returns TRUE
-cnpj.validate('22608842291');    // returns TRUE
+cnpj.validate('12.345.678/1234-56'); // returns TRUE
+cnpj.validate('12345678123456');     // returns TRUE
 
 cnpj.validate('11111111111'); // returns FALSE
 
@@ -41,7 +41,7 @@ Cnpj Mask
 ```js
 const cnpj = require('node-cnpj');
 
-cnpj.mask('22608842291'); // returns '226.088.422-91'
+cnpj.mask('12345678123456'); // returns '12.345.678/1234-56'
 
 ```
 
@@ -51,7 +51,7 @@ Cnpj UnMask
 ```js
 const cnpj = require('node-cnpj');
 
-cnpj.unMask('226.088.422-91'); // returns '22608842291'
+cnpj.unMask('12.345.678/1234-56'); // returns '12345678123456'
 
 ```
 
@@ -61,8 +61,8 @@ Cnpj Is Masked
 ```js
 const cnpj = require('node-cnpj');
 
-cnpj.isMasked('226.088.422-91'); // returns TRUE
-cnpj.isMasked('22608842291');    // returns FALSE
+cnpj.isMasked('12.345.678/1234-56'); // returns TRUE
+cnpj.isMasked('12345678123456');     // returns FALSE
 
 ```
 
