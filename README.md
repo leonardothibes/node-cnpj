@@ -31,8 +31,8 @@ cnpj.validate('11111111111'); // returns FALSE
 
 ```
 
-Cnpj Mask
---------
+CNPJ Mask
+---------
 
 ```js
 const cnpj = require('node-cnpj');
@@ -41,8 +41,8 @@ cnpj.mask('12345678123456'); // returns '12.345.678/1234-56'
 
 ```
 
-Cnpj UnMask
---------
+CNPJ UnMask
+-----------
 
 ```js
 const cnpj = require('node-cnpj');
@@ -51,8 +51,8 @@ cnpj.unMask('12.345.678/1234-56'); // returns '12345678123456'
 
 ```
 
-Cnpj Is Masked
-------------
+CNPJ Is Masked
+--------------
 
 ```js
 const cnpj = require('node-cnpj');
