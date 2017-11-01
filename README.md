@@ -12,11 +12,11 @@ npm install node-cnpj --save
 Examples
 --------
 
-* [Cnpj Validation](#cnpj-validation)
-* [Cnpj Mask](#cnpj-mask)
-* [Cnpj UnMask](#cnpj-unmask)
-* [Cnpj is Masked](#cnpj-is-masked)
-* [Random Cnpj Generation](#random-cnpj-generation)
+* [CNPJ Validation](#cnpj-validation)
+* [CNPJ Mask](#cnpj-mask)
+* [CNPJ UnMask](#cnpj-unmask)
+* [CNPJ is Masked](#cnpj-is-masked)
+* [Random CNPJ Generation](#random-cnpj-generation)
 
 Cnpj Validation
 --------------
