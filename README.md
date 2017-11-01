@@ -1,4 +1,4 @@
-# CNPJ [![Build Status](https://secure.travis-ci.org/leonardothibes/node-cnpj.png)](http://travis-ci.org/leonardothibes/node-cnpj) [![Package Quality](http://npm.packagequality.com/shield/node-cnpj.svg)](http://packagequality.com/#?package=node-cnpj)
+# CNPJ ![NPM Package](https://badge.fury.io/js/node-cnpj.svg) ![Downloads](https://img.shields.io/npm/dm/node-cnpj.svg) [![Build Status](https://secure.travis-ci.org/leonardothibes/node-cnpj.png)](http://travis-ci.org/leonardothibes/node-cnpj) [![Package Quality](http://npm.packagequality.com/shield/node-cnpj.svg)](http://packagequality.com/#?package=node-cnpj)
 
 Funções utilitárias para tratamento de CNPJ.
 
