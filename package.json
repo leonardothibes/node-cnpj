@@ -1,6 +1,6 @@
 {
   "name": "node-cnpj",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Funções utilitárias para tratamento de CNPJ",
   "main": "index.js",
   "homepage": "https://github.com/leonardothibes/node-cnpj#readme",
