@@ -35,14 +35,14 @@ describe('Entry Point', function()
 
     it('Is Masked', function(done)
     {
-        let valid = cnpj.isMaked('44.177.713/0001-09');
+        let valid = cnpj.isMasked('44.177.713/0001-09');
         assert.bool(valid).isTrue();
         done();
     });
 
     it('Is UnMasked', function(done)
     {
-        let valid = cnpj.isMaked('44177713000109');
+        let valid = cnpj.isMasked('44177713000109');
         assert.bool(valid).isFalse();
         done();
     });
