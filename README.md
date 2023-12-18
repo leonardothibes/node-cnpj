@@ -1,4 +1,4 @@
-# CNPJ [![npm](http://img.shields.io/npm/v/node-cnpj.svg)](https://www.npmjs.com/package/node-cnpj) ![Downloads](https://img.shields.io/npm/dm/node-cnpj.svg) [![Package Quality](http://npm.packagequality.com/shield/node-cnpj.svg)](http://packagequality.com/#?package=node-cnpj) [![License](https://img.shields.io/npm/l/node-cnpj.svg)](LICENSE)
+# CNPJ [![npm](http://img.shields.io/npm/v/node-cnpj.svg)](https://www.npmjs.com/package/node-cnpj) ![Downloads](https://img.shields.io/npm/dm/node-cnpj.svg) [![License](https://img.shields.io/npm/l/node-cnpj.svg)](LICENSE)
 
 Funções utilitárias para tratamento de CNPJ.
 
