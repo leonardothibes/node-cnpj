@@ -1,13 +1,6 @@
-# CNPJ [![npm](http://img.shields.io/npm/v/node-cnpj.svg)](https://www.npmjs.com/package/node-cnpj) ![Downloads](https://img.shields.io/npm/dm/node-cnpj.svg) [![Build Status](https://secure.travis-ci.org/leonardothibes/node-cnpj.png)](http://travis-ci.org/leonardothibes/node-cnpj) [![Package Quality](http://npm.packagequality.com/shield/node-cnpj.svg)](http://packagequality.com/#?package=node-cnpj) [![License](https://img.shields.io/npm/l/node-cnpj.svg)](LICENSE)
+# CNPJ [![npm](http://img.shields.io/npm/v/node-cnpj.svg)](https://www.npmjs.com/package/node-cnpj) ![Downloads](https://img.shields.io/npm/dm/node-cnpj.svg) [![License](https://img.shields.io/npm/l/node-cnpj.svg)](LICENSE)
 
 Funções utilitárias para tratamento de CNPJ.
-
-Pague-me um café
-----------------
-
-Se este componente foi útil para você, ou para algum de seus projetos, por favor ajude a apoiar o meu trabalho clicando no botão abaixo e fazendo uma doação via PayPal:
-
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=leonardothibes%40gmail%2ecom&lc=BR&item_name=Leonardo%20Thibes&item_number=node%2dcnpj&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest)
 
 Installation
 ------------
@@ -101,7 +94,7 @@ Contributors
 LICENSE
 =======
 
-Copyright (c) 2017 Leonardo Thibes
+Copyright (c) 2017-2023 Leonardo Thibes
 
 The MIT License
 
